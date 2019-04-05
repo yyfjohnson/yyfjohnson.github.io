@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index-VAMK</title>
+    <link rel="stylesheet" href="./static/bootstrap-3.3.7/css/bootstrap.min.css">
+    <!--仅小屏幕使用的css文件-->
+    <!--<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.php.cn/article/393507.html">-->
+    <style>
+        /* 屏幕小于640 */
+       /* @media screen and (max-width: 640px) {
+            body {
+                min-height: 100px;
+                background-color: rgba(77, 2, 2, 1);
+            }
+        }*/
+        /* 屏幕大于768 */
+       /* @media (min-width: 768px) {
+            body {
+                min-height: 100px;
+                background-color: rgb(217, 3, 3);
+            }
+        }*/
+        .navbar-brand>img{
+            max-height: 100%;
+        }
+        body{
+            background-color: transparent;
+            background-image: url(./static/img/bg.jpg);
+            background-repeat: repeat;
+            background-position: center top;
+        }
+        .container>.row{
+            background-color: #FFFFFF;
+            min-height: 1000px;
+        }
+        .carousel-inner img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                            <img alt="vamk" src="./static/img/logo.png">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">INDEX</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="survey.html">SURVEY</a></li>
+                            <li><a href="http://www.puv.fi/fi/" target="_blank">VAMK-fi</a></li>
+                        </ul>
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div  class="col-md-12 col-xs-12">
+            <div id="myCarousel" class="carousel slide">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="./static/img/lb0.jpg" alt="slide">
+                    </div>
+                    <div class="item">
+                        <img src="./static/img/lb1.jpg" alt="slide">
+                    </div>
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+                <a class="carousel-control left" href="#myCarousel"
+                   data-slide="prev"> <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="carousel-control right" href="#myCarousel"
+                   data-slide="next"> <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <div class="col-md-12 col-xs-12">
+            <h3>INTRODUCE</h3>
+            <p>
+                VAMK is located on the Palosaari university campus within a walking distance from Vaasa city centre. Technobothnia Education and Research Centre, Tritonia Academic Library, Design Centre Muova, and Alere, the learning centre of social services and health care are all located on Palosaari. The University of Vaasa and Novia University of Applied Sciences can also be found on the same campus.
+            </p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <h3>CAMPUS LOCATIONS</h3>
+            VAMK is located on the Palosaari university campus within a walking distance from Vaasa city centre. Technobothnia Education and Research Centre, Tritonia Academic Library, Design Centre Muova, and Alere, the learning centre of social services and health care are all located on Palosaari. The University of Vaasa and Novia University of Applied Sciences can also be found on the same campus.
+        </div>
+        <div class="col-md-6 col-xs-12">
+            <iframe src="http://www.google.cn/maps/embed?pb=!1m27!1m12!1m3!1d57751.354612038114!2d21.5216581187871!3d63.10648058010373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e6!4m5!1s0x467d604243254b7f%3A0xff6b1569fca42e3b!2z55Om6JCo5bel5a2m6ZmiIFdvbGZmaW50aWUgMzAsIDY1MjAwIFZhYXNhLCDoiqzlhbA!3m2!1d63.106420199999995!2d21.591697099999998!4m4!1s0x467d604243254b7f%3A0xff6b1569fca42e3b!3m2!1d63.106420199999995!2d21.591697099999998!5e0!3m2!1szh-CN!2scn!4v1554367368141!5m2!1szh-CN!2scn"
+                    width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="./static/js/jquery.min.js"></script>
+<script type="text/javascript" src="./static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
